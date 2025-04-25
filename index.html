@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <linK rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <linK rel="stylesheet" href="style.css">
+    <title>Ramzi Amlil</title>
+</head>
+</body>
+<script>
+    const hamburger = document.getElementById("hamburger");
+    const navMenu = document.getElementById("navMenu");
+  
+    hamburger.addEventListener("click", () => {
+      navMenu.classList.toggle("active");
+    });
+</script>
+  
+<body>
+
+    <header>
+        <a href="#" class="logo">RAMZI</a>
+
+        <!-- Hamburger Icon -->
+        <div class="hamburger" id="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+        <div class="language-selector">
+        <button class="language-button"><i class="fa-solid fa-language" style="color: #340057; background-color: #1a002c00;" ></i></button>
+            <ul id="language-menu" class="language-menu">
+                <a href="index_AR.html" id="lan">العربية</a>
+                <a href="index_FR.html" id="lan">Français</a>
+            </ul>
+        </div>        
+        <nav class="nav">
+            <a href="#home">Home</a>
+            <a href="#aboutme">About me</a>
+            <a href="#contact">Contact me</a>
+        </nav>
+    </header>
+
+    <section class="main" id="home">
+        <div>
+            <h2>Hello, I`m <strong>RAMZI</strong><br><span>Accountant | Software Developer</span></h2>
+            <h3>Welcome to my website</h3>
+            <a href="#aboutme" class="main_btn">Discover more about me</a>
+            <div class="social-icons">
+                <a href="mailto:madraramzi@gmail.com?subject=Message%20from%20your%20website"><i class="fa-regular fa-envelope" style="color: #340057;"></i></a>
+                <a href="https://wa.me/212706719041"><i class="fa-brands fa-whatsapp" style="color: #340057;"></i></a>
+                <a href="tel:+212706719041"><i class="fa-solid fa-phone" style="color: #340057;"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <section class="cards" id="aboutme" style="background-color: #1a002c;">
+        <h2 class="title">About me</h2>
+        <div class="content">
+            <div class="card">
+                <div class="icon" ><i class="fa-solid fa-person" style="color: #340057;"></i></div>
+                <div class="info">
+                    <h3>Personal Information</h3>
+                    <p>
+                        Young Moroccan passionate about cybersecurity, eager to learn, grow, and contribute through meaningful opportunities.
+                    </p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="icon" ><i class="fa-solid fa-school" style="color: #340057;"></i></div>
+                <div class="info">
+                    <h3>Educational Background</h3>
+                    <p>
+                        Holder of an accounting diploma from ISTA Polo; self-taught in programming and cybersecurity through personal effort.
+                    </p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="icon" ><i class="fa-solid fa-briefcase" style="color: #340057;"></i></div>
+                <div class="info">
+                    <h3>Experience</h3>
+                    <p>
+                        Gained personal experience in accounting-related tasks, website creation, and programming—without affiliation to any institution.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <a href="https://drive.google.com/uc?export=download&id=1KyupjHJnNfSEY-6KIGvUWZw_AiHdCdqJ" download class="cv_btn">Download my CV</a>
+    </section>
+
+    <section class="cards" id="contact" style="background-color: #7c3aff;">
+        <h2 class="title">let`s work together</h2>
+        <div class="content">
+            <div class="card">
+                <div class="icon" ><i class="fa-solid fa-phone-volume" style="color: #340057;"></i></div>
+                <div class="info">
+                    <h3>Phone</h3>
+                    <p style="font-style: normal; font-weight: 700; font-size: 1.4em;">
+                        <a href="tel:+212706719041">+212706719041</a>
+                    </p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="icon" ><i class="fa-solid fa-envelope-open-text" style="color: #340057;"></i></div>
+                <div class="info">
+                    <h3>Email</h3>
+                    <p style="font-style: normal; font-weight: 700; font-size: 1.4em;">
+                        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=madraramzi@gmail.com&su=Message%20from%20your%20website&body=Hi%20Ramzi,%0A%0AI%20just%20visited%20your%20website%20and%20would%20like%20to%20get%20in%20touch%20with%20you%20regarding%20...">madraramzi@gmail.com</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p class="ftitle">Copyright @ <span>RAMZI AMLIL</span></p>
+        <div class="social-icons">
+            <a href="mailto:madraramzi@gmail.com?subject=Message%20from%20your%20website"><i class="fa-regular fa-envelope" style="color: aqua;"></i></a>
+            <a href="https://wa.me/212706719041"><i class="fa-brands fa-whatsapp" style="color: aqua;"></i></a>
+            <a href="tel:+212706719041"><i class="fa-solid fa-phone" style="color: aqua;"></i></a>
+        </div>
+    </footer>
+    
+</body>
